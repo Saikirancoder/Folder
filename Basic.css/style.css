@@ -34,16 +34,73 @@ h1
   border: 1px solid black;
   height: 300px;
   width: 300px;
+  
 }
 .child
 {
   border: 1px solid black;
   background-color: red;
   height: 100px;
-  width: 33.3%;
+  width: 20.3%;
   float: left;
+  padding: 10px;
+  margin: 10px;
+ 
 }
 .firstdiv
 {
   background-color: aquamarine;
+}
+
+
+#container2
+{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.child2
+{
+  border: 1px solid black;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+.child5
+{
+  flex-basis: 50px;
+}
+.child6
+{
+  flex-grow: 8;
+}
+.child7
+{
+  flex-shrink: 8;
+  flex-wrap: wrap-reverse;
+}
+#container3
+{
+border: 1px solid black;
+height: 500px;
+width: 500px;
+border-radius: 5px;
+display: grid;
+grid-template-columns: auto auto;
+grid-column-start: 100px 200px 100px 100px;
+
+}
+.child3
+{
+ border: 1px solid black;
+ background-color: blueviolet;
+ height: 100px;
+width: 100px;
+
 }

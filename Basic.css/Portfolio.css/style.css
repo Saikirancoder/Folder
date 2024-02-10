@@ -1,59 +1,66 @@
-
-*
-{
-  box-sizing: border-box;
-}
 body
 {
-    background-color: rgb(198, 145, 248);
+height: fit-content;
+width: 1000px;
+border: 1px solid black;
+padding: 30px;
+margin-left: 250px;
+background-color: rgb(142, 142, 238);
 }
-    h1
+h1
 {
-   
     text-align: center;
     text-decoration: underline;
-    padding: 20px;
-    border: 0cap;
-    background-color: rgb(147, 147, 243);
-    border: 1px solid black;
-    position: sticky;
-    border-radius: 20px;
+    background-color: blueviolet;
+
 }
 h2
 {
     text-align: center;
     text-decoration: underline;
-    padding: 20px;
-    background-color: rgb(160, 94, 222);
+    background-color: rgb(92, 62, 213);
     margin-top: -20px;
-    border: 1px solid black;
-    border-radius: 20px;
 }
-div
+.image
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.div1 a
 {
     display: flex;
     justify-content: center;
+align-items: center;
+
+margin: 10px;
+text-decoration: none;
 }
-button
-{
-margin-top: 15px;
-padding: 5px;
-}
-#btn1
-{
-    margin: 20px;
-}
-#btn2
-{
-    margin: 20px;
-}
-.div1
-{
-    padding-left: 60px;
-    padding-right: 60px;
-}
-article
+.image2
 {
     float: right;
-    
+}
+h1{
+position: sticky;
+   
+    top: 0px;
+}
+.image3
+{
+    float: left;
+}
+.p3
+{
+    padding-left: 330px;
+}
+legend{
+    background-color: bisque;
+    border: 1px solid balck;
+}
+fieldset
+{
+    background-color: rgb(249, 244, 244);
+    border: 2px solid balck;
+    height: fit-content;
+    width: fit-content;
 }
