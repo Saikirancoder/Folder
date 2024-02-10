@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        h1
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<form action="file.php" method="get">
+<body>
+    <h1>My Form</h1>
+ <label for="fnam">First Name:</label>   <input type="text" id="fnam" placeholder="Enter your first name" name="fnam"><br><br>
+ <label for="lnam">Last Name:</label>   <input type="text" id="lnam" placeholder="Enter your last name" name="lnam"><br><br>
+ <label for="email">E-mail:</label>   <input type="email" id="email" placeholder="Enter your email" name="email"><br><br>
+ <label for="pwd">Password:</label>   <input type="password" id="pwd" placeholder="Enter your password" name="pwd"><br><br>
+ <label for="dob">Data Of Birth:</label>   <input type="date" id="fnam" name="dob"><br><br>
+ <!-- <label for="dob">Data Of Birth:</label>   <input type="datetime-local" id="fnam" name="dob"><br><br>
+ <label for="dob">Data Of Birth:</label>   <input type="color" id="fnam" name="dob"><br><br> -->
+ <!-- <input type="file" name="file"> -->
+ <!-- <input type="range" id="range" name="range">
+ <input type="url" id="url" name="url"><br><br>
+ <input type="month" id="month" name="month"> -->
+ <!-- radio buttons used in case of selecting a single option among multiple i.e,For Choosing Gender-->
+ Choose Gender:<br><br>
+ <input type="radio" id="rd1" name="gender" value="male"><label for="rd1">Male</label>
+ <input type="radio" id="rd2" name="gender" value="female"><label for="rd2">Female</label><br><br>
+ <!--Check Boxes used in case of selecting multiple options i.e,M.C.Qs-->
+ <input type="checkbox" id="c1" name="skills" value="html"><label for="c1">HTML</label>
+ <input type="checkbox" id="c2" name="skills" value="css"><label for="c2">CSS</label>
+ <input type="checkbox" id="c3" name="skills" value="javascript"><label for="c3">JAVASCRIPT</label><br><br>
+ <!--Drop-Downs used in case of selecting either one option or multiple options-->
+ Choose Gender:
+ <select name="gendeer" id="">
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="others">Others</option>
+<option value="dont want to mention">Don't want to Mention</option>
+ </select><br><br>
+ <select name="vechile">
+<optgroup label="Cars">
+<option value="bmw">BMW</option>
+<option value="nana">NANO</option>
+<option value="lamborgini">LAMBORGINI</option>
+</optgroup>
+<optgroup label="Bikes">
+<option value="r15">R15</option>
+<option value="pulsar">PULSAR</option>
+<option value="duke">Duke</option>
+</optgroup>
+</select>
+ <br><br>
+ <input type="reset">
+ <input type="Submit"></form>
+</body>
+</html>

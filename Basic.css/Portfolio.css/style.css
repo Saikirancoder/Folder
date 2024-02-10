@@ -1,0 +1,59 @@
+
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(198, 145, 248);
+}
+    h1
+{
+   
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    border: 0cap;
+    background-color: rgb(147, 147, 243);
+    border: 1px solid black;
+    position: sticky;
+    border-radius: 20px;
+}
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    background-color: rgb(160, 94, 222);
+    margin-top: -20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+div
+{
+    display: flex;
+    justify-content: center;
+}
+button
+{
+margin-top: 15px;
+padding: 5px;
+}
+#btn1
+{
+    margin: 20px;
+}
+#btn2
+{
+    margin: 20px;
+}
+.div1
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+article
+{
+    float: right;
+    
+}

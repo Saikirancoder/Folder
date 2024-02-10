@@ -1,0 +1,36 @@
+
+body
+{
+    background-color: blueviolet;
+    background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    background-size: cover;
+}
+table
+{ 
+    text-align: center;
+    border: 1px solid black;
+    border: 5px;
+    border-style: groove;
+    border-color: rgb(84, 4, 159);
+    padding: 10px;
+    margin-left: 650px;
+    margin-bottom: 100px;
+}
+th,td
+{
+    border: 2px solid black;
+}
+h1
+{
+    text-align: center;
+    background-color: aqua;
+   color: blue;
+}
+.row
+{
+    background-color: rgb(209, 125, 125);
+}
+.col
+{
+    background-color: aquamarine;
+}
